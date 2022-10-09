@@ -1,2 +1,16 @@
-package org.example.dao;public interface EmployeeDAO {
+package org.example.dao;
+
+import org.example.entity.Employee;
+
+import java.util.List;
+
+public interface EmployeeDAO {
+
+    public List<Employee> getAllEmployees();
+
+    public void saveEmployee (Employee employee);
+
+    public Employee getEmployee(int id);
+
+    public void deleteEmployee(int id);
 }

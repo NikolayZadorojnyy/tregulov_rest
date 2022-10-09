@@ -1,4 +1,4 @@
-package org.example.exception_handing;
+package org.example.exception_handling;
 
 public class EmployeeIncorrectData {
 
